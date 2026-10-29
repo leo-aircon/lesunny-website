@@ -5,6 +5,8 @@
 # Local source logo is preserved; publish only the copy under docs/assets.
 /Lesunny logo.jpg
 /local-review/
+# Alibaba Cloud DNS exports: keep local only.
+/lesunny.com_*.xlsx
 .DS_Store
 **/.DS_Store
 node_modules/

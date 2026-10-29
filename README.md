@@ -8,9 +8,11 @@
 
 Logo 网页副本为 `docs/assets/lesunny-logo.jpg`，与根目录原件完全一致。替换时保留原件，更新网页副本、HTML 中图片的宽高（原始像素）及替代文字。CSS 使用 `height: auto` 保持比例。
 
-## GitHub Pages 发布（待批准）
+## GitHub Pages 发布
 
-1. 使用已登录账号 `leo-aircon`，核查项目仓库后，若不存在则创建公开仓库 `lesunny-website`。只上传本 README、`.gitignore` 和 `docs/` 中四个网站文件。
+项目仓库：https://github.com/leo-aircon/lesunny-website 。已推送网站，Pages 使用 `main/docs`，自定义域名已保存为 `www.lesunny.com`。网站 DNS 和域名验证 TXT 已配置；GitHub 账号中的 Verify 状态及 HTTPS 验收仍待完成。
+
+1. 使用账号 `leo-aircon` 的公开仓库 `lesunny-website`。只上传本 README、`.gitignore` 和 `docs/` 中网站文件（含 GitHub 生成的 CNAME）。
 2. 推送到 `main`。Settings → Pages → Deploy from a branch → `main` / `docs` → Save。
 3. 在账号 Settings → Pages → Add a domain 验证 `lesunny.com`，将生成的专用 TXT 主机名和值记入本地变更单。此 TXT 长期保留。
 4. 仓库 Settings → Pages → Custom domain 填 `www.lesunny.com` 并保存；GitHub 会在发布目录生成 CNAME 文件。拉取该提交，再修改 DNS。
