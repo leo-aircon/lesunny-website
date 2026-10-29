@@ -1,0 +1,17 @@
+# Historical material: never publish or track.
+/Old website document/
+/Old website documents/
+/Old website document*/
+# Local source logo is preserved; publish only the copy under docs/assets.
+/Lesunny logo.jpg
+/local-review/
+.DS_Store
+**/.DS_Store
+node_modules/
+.venv/
+__pycache__/
+*.log
+.env
+.env.*
+/tmp/
+/temp/
