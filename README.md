@@ -10,7 +10,9 @@ Logo 网页副本为 `docs/assets/lesunny-logo.jpg`，与根目录原件完全�
 
 ## GitHub Pages 发布
 
-项目仓库：https://github.com/leo-aircon/lesunny-website 。已推送网站，Pages 使用 `main/docs`，自定义域名已保存为 `www.lesunny.com`。网站 DNS 和域名验证 TXT 已配置；GitHub 账号中的 Verify 状态及 HTTPS 验收仍待完成。
+正式网址：https://www.lesunny.com/ 。项目仓库：https://github.com/leo-aircon/lesunny-website 。Pages 使用 `main/docs`，自定义域名为 `www.lesunny.com`，Enforce HTTPS 已启用。
+
+2026-10-29 验收：主网址 HTTPS 返回 200，裸域及 HTTP 地址均跳转到 HTTPS 主网址，Logo 和 CSS 返回 200，证书校验通过。桌面和手机布局已核验。域名验证 TXT 已配置，应长期保留；GitHub 账号内 Verify 按钮的最终状态未能自动读取。
 
 1. 使用账号 `leo-aircon` 的公开仓库 `lesunny-website`。只上传本 README、`.gitignore` 和 `docs/` 中网站文件（含 GitHub 生成的 CNAME）。
 2. 推送到 `main`。Settings → Pages → Deploy from a branch → `main` / `docs` → Save。
